@@ -1,4 +1,4 @@
-[![Hi, I'm Alex! 👋 — NeffIsBack](assets/hello.svg)](https://aneff.io/)
+[![Hi, I'm Alex! — NeffIsBack](assets/hello.svg)](https://aneff.io/)
 
 I’m Alex, a penetration tester focused on Active Directory security and a maintainer of [NetExec](https://github.com/Pennyw0rth/NetExec). I build open-source security tools and share research and talks.
 
@@ -12,8 +12,3 @@ I’m Alex, a penetration tester focused on Active Directory security and a main
 
 ![Most used languages, excluding Jupyter Notebook](https://github-stats-extended.vercel.app/api/top-langs/?username=NeffIsBack&layout=compact&langs_count=10&hide=Jupyter%20Notebook&hide_border=true&bg_color=161320&title_color=CBB6E6&text_color=ECE9F2&card_width=495&disable_animations=false)
 
-### Selected work
-
-- **[NetExec](https://github.com/Pennyw0rth/NetExec)** — Network security assessment and exploitation at scale.
-- **[wsuks](https://github.com/NeffIsBack/wsuks)** — Automating WSUS machine-in-the-middle attacks.
-- **[EVENmonitor](https://github.com/NeffIsBack/EVENmonitor)** — Live remote Windows event logs with event ID and text filtering.

@@ -1,11 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="850" height="180" viewBox="0 0 850 180" fill="none" role="img" aria-labelledby="title description">
   <title id="title">Hi, I’m Alex! — NeffIsBack</title>
-  <desc id="description">A greeting from Alex, also known as NeffIsBack, with a waving hand and a purple terminal illustration on a dark background.</desc>
+  <desc id="description">A greeting from Alex, also known as NeffIsBack, with a purple terminal illustration on a dark background.</desc>
   <style>
     .greeting { animation: arrive 800ms ease-out both; }
     .handle { animation: arrive 800ms 100ms ease-out both; }
     .underline { stroke-dasharray: 116; animation: draw 950ms 150ms ease-out both; }
-    .hand { transform-origin: 371px 94px; animation: wave 1200ms 250ms ease-in-out; }
     @keyframes arrive {
       from { opacity: 0; transform: translateY(6px); }
       to { opacity: 1; transform: translateY(0); }
@@ -14,13 +13,8 @@
       from { stroke-dashoffset: 116; }
       to { stroke-dashoffset: 0; }
     }
-    @keyframes wave {
-      0%, 100% { transform: rotate(0deg); }
-      25%, 65% { transform: rotate(9deg); }
-      45%, 85% { transform: rotate(-5deg); }
-    }
     @media (prefers-reduced-motion: reduce) {
-      .greeting, .handle, .underline, .hand { animation: none; }
+      .greeting, .handle, .underline { animation: none; }
     }
   </style>
 
@@ -32,13 +26,6 @@
 
   <g class="greeting">
     <text x="40" y="91" fill="#CBB6E6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="650" letter-spacing="-1.3">Hi, I’m Alex!</text>
-    <g transform="translate(-54 0)">
-      <g class="hand" stroke="#B79FDD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M358 91L347 76C345 73 347 70 350 72L355 78L347 61C346 58 350 56 351 59L359 74L354 54C353 51 357 49 359 53L364 71L363 52C363 48 368 48 369 52L370 73L374 59C375 55 379 57 378 61L375 80C374 89 368 97 361 94Z" fill="#501F8E"/>
-        <path d="M357 79C361 77 365 79 366 83"/>
-        <path d="M341 59L337 55M383 49L386 45" stroke-opacity=".75"/>
-      </g>
-    </g>
   </g>
   <text class="handle" x="42" y="123" fill="#ECE9F2" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="16" letter-spacing="1.3">NeffIsBack</text>
   <path class="underline" d="M42 144H158" stroke="#501F8E" stroke-width="3" stroke-linecap="round"/>
